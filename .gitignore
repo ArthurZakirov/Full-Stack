@@ -1,1 +1,66 @@
-backend/venv/*
+# Python/Django ignores
+#####################################
+# Virtual environment folder
+backend/venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Local env files
+.env
+*.env
+
+# Migrations
+backend/**/migrations/
+
+# Pytest cache
+backend/.pytest_cache/
+backend/.coverage
+
+# IDE Specific (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Node/React ignores
+#####################################
+# Dependency directory
+frontend/node_modules/
+
+# Logs and lock files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Static folder (if you build your frontend in Django's static folder)
+backend/staticfiles/
+
+# Frontend build files
+frontend/build/
+frontend/dist/
+
+# Production files
+frontend/.env.production
+
+# Parcel cache (if using Parcel as bundler)
+frontend/.parcel-cache/
+
+# Coverage directories for testing
+frontend/coverage/
+frontend/jest/
+
+# Miscellaneous files to ignore
+frontend/*.log
+backend/*.log
