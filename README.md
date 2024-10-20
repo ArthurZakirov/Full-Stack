@@ -1,15 +1,12 @@
 ## Table Of Contents
-- [Requirements](#requirements)
 - [Setup](#setup)
     - [Frontend](#frontend-setup)
     - [Backend](#backend-setup)
 
 - [Usage](#usage)
-    - [Start Frontend App](#start-frontend-app)
+    - [Start Frontend](#start-frontend-app)
+    - [Start Backend](#start-backend)
 
-## Requirements
-- you need to install ```node``` on your device
-- you need to install ```npm``` on your device
 
 ## Setup
 ### Backend Setup
@@ -33,9 +30,31 @@ pip install -r requirements.txt
 
 
 ### Frontend Setup
+1. To get started with the frontend, you'll need Node.js installed on your system. Follow the official instructions [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
+
+2. Navigate into frontend by pasting the following into your command line
+```bash
+cd frontend
+```
+3. Install npm by pasting the following into your command line
+```bash
+npm install
+```
+
 
 
 ## Usage
+
+### Start Backend
+1. Navigate into backend by pasting the following into your command line
+```bash
+cd backend/myproject
+```
+
+2. Start the API by pasting the following into your command line
+```bash
+python manage.py runserver
+```
 
 ### Start Frontend App
 1. Navigate into frontend by pasting the following into your command line
