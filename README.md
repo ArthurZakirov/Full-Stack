@@ -1,10 +1,15 @@
 ## Table Of Contents
+- [Requirements](#requirements)
 - [Setup](#setup)
     - [Frontend](#frontend-setup)
     - [Backend](#backend-setup)
 
 - [Usage](#usage)
     - [Start Django]()
+
+## Requirements
+- you need to install ```node``` on your device
+- you need to install ```npm``` on your device
 
 ## Setup
 ### Backend Setup
